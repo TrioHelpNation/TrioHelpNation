@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Streaming</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body {font-family: Arial;}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+  <style type="text/css">
+    body {
+        background-image: url(https://i.postimg.cc/W3qksHdD/video.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    </style>
+    <body>
+<h2>ALL ABOUT STREAMING</h2>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'INTRODUCTION')">INTRODUCTION</button>
+  <button class="tablinks" onclick="openCity(event, 'TYPES OF CONTENT')">TYPES OF CONTENT</button>
+  <button class="tablinks" onclick="openCity(event, 'TYPES OF PLATFORM')">TYPES OF PLATFORM</button>
+</div>
+<div class="box">
+</div>
+<style>
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+div.box {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+  body{
+    text-align:center;
+    background-color: #98AFC7;
+  }
+  h2{
+color: black;
+font-family:'Times New Roman', Times, serif ;
+font: size 150%;
+  }
+  h3{
+    color: black;
+    font-family:Times New Roman;
+    font-size:150%;
+  }
+  h4{
+    font-size:180%;
+    color: black;
+    font-family:Times;
+    
+  }
+  h5{
+    font-size:150%;
+    color: black;
+    font-family:Times;
+  }
+  h6{
+    font-size:160%;
+    color: black;
+    font-family:Times;
+  }
+  p{
+    font-size:130%;
+    font-family:Courier;
+  }
+  p1{
+    font-size:130;
+    font-family:Courier;
+  }
+</style>
+<div id="INTRODUCTION" class="tabcontent">
+  <h3>STREAMING</h3>
+  <p>Streaming is a method of transmitting or receiving data-especially video and audio material-over a computer network as a steady, continuous flow, allowing playback, to start while the rest of the data is still being recieved.</p>
+  <h4>How Does It Work?</h4>
+  <p>Streaming is the continuous transmission of audio or video files from a server to a client.With streaming, the media file being plaed on the clients devices is stored remotely, and is transmitted a few seconds at a time over the internet.</p>
+  <h5>What is The Difference Between Internet and Streaming?</h5>
+  <p>Streaming is a technology used to deliver content to computers and mobile devices over the internet without having to downoad it and can either be recorded or live. The key difference between the two are when you can start watching and what happens to the content after you view it.</p>
+  <h6>Difference Between Live and Recorded Streamning</h6>
+  <p>Live streaming is streaming a video or an audio and streaming in over the internet in real time and this kind of streaming can not be played back or pause since it is shown in real time, without the need of recording. While recorded streaming is when a video or audio is streamd over the internet but not in real time and this kind of streaming can be played back or even be paused since it is recorded</p>
+</div>
+<style>
+  p{
+    font-size: 130;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  h3{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  h4{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+  h5{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black
+  }
+  h6{
+    font-size: x-large;
+    font-family: courier;
+  }
+</style>
+
+<div id="TYPES OF CONTENT" class="tabcontent">
+  <h3>WHAT ARE THE TYPES OF STREAMING CONTENT?</h3>
+  <p>-Video Game<br>-Movies<br>-TV shows<br>-Webcast<br>-Podcast.</p>
+</div>
+
+<div id="TYPES OF PLATFORM" class="tabcontent">
+  <h3>Here are the different platforms you can use to do streaming:</h3>
+  <p>-Twitch<br>-Youtube<br>-Facebook<br>-Netflix<br>-Viu<br>-Spotify<br>-Apple Music</p>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
